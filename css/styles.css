@@ -1,0 +1,11 @@
+.hero {
+  background-image: url('../images/blue-grey-wall.jpg');
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+body {
+  background-color: : #000;
+}
