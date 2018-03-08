@@ -39,9 +39,16 @@
   text-shadow: 1px 1px 5px #0a0a0a;
 }
 
+@media screen and (max-width: 700px) {
+  .review-container h1 {
+    font-size: 3em;
+  }
+}
+
 .white-text {
   color: #fff;
 }
+
 
 .nav li a:hover {
   background-color: transparent;
@@ -192,7 +199,6 @@ nav.navbar {
   color: #fff;
 }
 .cognito{
-  padding left: 100px;
 }
 
 
