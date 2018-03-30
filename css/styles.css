@@ -28,6 +28,7 @@
 @media screen and (max-width: 700px) {
   #hero {
     height:auto;
+    background-size: cover;
   }
 }
 
