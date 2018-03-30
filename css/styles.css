@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:500|Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans:300');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Bevan');
 /* UNIVERSAL */
 
 
@@ -121,24 +122,35 @@ nav.navbar {
 }
 
 .ourstoryparagraph{
-  height: 300px;
+  height: 275px;
   font-size: 20px;
   margin-top: 40px;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.9;
 }
 
+
 .qualitywork{
   width: 8em;
   border-top: 1px solid #fff;
   margin-top: 40px;
   background-color: #484848;
-  color: #fff;
+  color: #000;
 }
+
 .qualitywork1{
   width: 8em;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #000;
   margin-top: 40px;
+  background-color: #484848;
+  color: #000;
+}
+
+.qualitywork2{
+  width: 8em;
+  border-top: 1px solid #000;
+  margin-top: 40px;
+  margin-bottom: 100px;
   background-color: #484848;
   color: #111;
 }
@@ -149,20 +161,44 @@ nav.navbar {
   padding-bottom: 100px;
 }
 
+@media screen and (max-width: 699px){
+  .whatwedo{
+    padding-bottom: 25px;
+  }
+}
+
 .what-we-do{
   margin-top: 40px;
 }
 
-@media screen and (min-width: 701px) {
-  .mobile-icon{
+
+
+.mobile-what-we-do{
+  background-color: #484848;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.no-icon{
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 700px) {
+  .no-icon{
     display: none;
   }
+
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 699px) {
   .icon{
     display: none;
+  }
+
+  .whatwedo{
+
   }
 }
 
@@ -206,7 +242,7 @@ nav.navbar {
     letter-spacing: 0.2em;
     font-family: 'Open Sans', sans-serif;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .bg-grey{
