@@ -106,6 +106,114 @@ nav.navbar {
 .min-height {
   height: 400px;
 }
+/*resedential panel */
+
+#flip1 {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+}
+
+#panel1 {
+    padding: 50px;
+    text-align: left;
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#panel1 {
+    padding: 25px;
+    display: none;
+}
+
+#flip2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+}
+
+#panel2 {
+    padding: 50px;
+    text-align: left;
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#panel2 {
+    padding: 25px;
+    display: none;
+}
+
+#flip3 {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+}
+
+#panel3 {
+    padding: 50px;
+    text-align: left;
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#panel3 {
+    padding: 25px;
+    display: none;
+}
+
+
+#mpanel1 {
+    padding: 50px;
+    text-align: left;
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#mpanel1 {
+    padding: 25px;
+    display: none;
+}
+
+#mpanel2 {
+    padding: 50px;
+    text-align: left;
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#mpanel2 {
+    padding: 25px;
+    display: none;
+}
+
+#mpanel3 {
+    padding: 50px;
+    text-align: left;
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#mpanel3 {
+    padding: 25px;
+    display: none;
+}
+
 
 /* begin this is our story */
 
@@ -113,6 +221,10 @@ nav.navbar {
   font-size: 2.8em;
   letter-spacing: 0.2em;
   font-family: 'Open Sans', sans-serif;
+}
+
+.icon-text{
+
 }
 
 .ourstory{
@@ -172,13 +284,24 @@ nav.navbar {
   margin-top: 40px;
 }
 
+.zoom{
+  transition: transform .3s;
+}
+
+.zoom:hover{
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
 
 
 .mobile-what-we-do{
-  background-color: #484848;
+  background-color: #000;
   color: #fff;
   padding-top: 35px;
   padding-bottom: 35px;
+  border: solid 1px #fff;
+  border-radius: 10px;
 }
 
 .no-icon{
@@ -201,6 +324,10 @@ nav.navbar {
   .whatwedo{
 
   }
+}
+
+.resbut{
+  text-decoration: none;
 }
 
 
@@ -250,7 +377,9 @@ nav.navbar {
     background-color: #f5f5f5;
   }
 
-
+.black{
+  color: #000;
+}
 
 
 /* Add an orange color to all icons and set the font-size */
