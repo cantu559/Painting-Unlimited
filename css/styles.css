@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bevan');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300');
+
 
 
 /* UNIVERSAL */
@@ -252,12 +254,26 @@ nav.navbar {
 }
 
 .ourstoryparagraph{
-  height: 275px;
+  height: 175px;
   font-size: 20px;
   margin-top: 40px;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.9;
 }
+
+.tony{
+  margin-bottom: 75px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+
+}
+
+@media screen and (max-width: 1300px) {
+  .tony {
+    padding-top: 100px;
+  }
+}
+
 
 
 
